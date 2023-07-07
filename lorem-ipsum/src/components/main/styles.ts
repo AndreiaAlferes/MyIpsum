@@ -25,7 +25,7 @@ export const style = [
     .result {
       display: flex;
       justify-content: center;
-      margin-top: -100px;
+      margin-top: -140px;
     }
 
     #txt {
@@ -36,6 +36,10 @@ export const style = [
       height: 600px;
       margin: 50px auto;
       margin-top: 0px;
+    }
+
+    .container {
+      height: 100vh; /* opcional - define a altura total da página */
     }
 
     h1 {
